@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,800;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Leckerli+One&display=swap');
+*{
+   margin: 5px;
+    background-color: rgb(231, 238, 243);
+    border-radius: 20px;
+}
+body{
+    height: 95vh;
+    width: 80vw;
+    background-color: rgb(225, 222, 236);
+    margin: 0vw 9vw;
+     
+}
+
+.header{
+    height: 12.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   background-color: white;
+   border-radius: 5px;
+   border-radius: 20px;
+ 
+}
+ 
+
+.portfolio{
+  width: 50%;
+  margin-left:5vw;
+  display: flex;
+  align-items: center;
+  font-family: 'leckerli One' ,'Segoe UI', Tahoma , Verdana, sans-serif;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: bold;
+}
+.span-1{
+    color: rgb(245, 7, 146);
+    font-weight: bold;
+}
+ 
+.menu{
+    border-radius: 20px;
+  width: 50%;
+   display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    background-color: #fff;
+    border-right: 4px solid white;
+   
+ 
+}
+ 
+a{
+     
+     height: 9vh;
+     width: 10vw;
+    text-decoration: none;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: 'Montserrat' , 'Segoe UI', Tahoma, Verdana, sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 20px;
+}
+a:hover{
+    color: rgb(248, 11, 130);
+     
+    border-radius: 20px;
+}
+ 
+
+
+
+
+
+ 
+.main{
+    height: 75%;
+    
+    display: flex;
+    justify-content: stretch;
+    align-items: flex-start;
+    flex-direction: row;
+
+    background-color: rgb(240, 173, 236);
+   border-radius: 20px;
+}
+.img{
+    order: 2;
+    width: 50%;
+    height: 98%;
+    
+    background-color:rgb(240, 173, 236) ;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.img-zayid{
+    background-color: rgb(240, 173, 236);
+
+}
+.text{
+    order: 1;
+    background-color: rgb(240, 173, 236);
+    width: 50%;
+    height: 98%;
+    font-size: 2vw;
+    font-family: Old Standard T , serif;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+  
+}
+.span-2{
+    background-color:  rgb(240, 173, 236) ;
+    color:  rgb(248, 11, 130);
+     
+}
+.text-1, .text-2 ,.text-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    background-color: rgb(240, 173, 236);
+    font-family: Exo 2 , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: 900px;
+}
+.text-2, .text-3{
+    font-family: Old Standard TT , 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+}
+ 
+.button{
+    background-color: rgb(240, 173, 236);
+}
+#button{
+     
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgb(100, 255, 52);
+    border: 3px solid white;
+    border-radius: 50px;
+    font-family: Old Standard TT , 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#button:hover{
+    background-color:  rgb(248, 11, 130) ;
+}
+
+ 
+
+
+
+
+
+
+.footer{
+    
+    height: 12.5%;
+    width: 79vw ;
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color:  rgb(212, 181, 241);
+}
+.social-media{
+    
+    height: 8vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    background-color:  rgb(212, 181, 241);;
+}
+
+ #b{
+    background-color:  rgb(212, 181, 241);;
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: x-large;
+     
+    font-family: 'Montserrat' , 'Segoe UI', Tahoma, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ }
+
+
+
+
+
+
+
+
+ @media screen and ( max-width: 768px ) {
+     body{
+         display: flex;
+    
+         flex-direction: column;
+         height: 95vh;
+         width: 80vw;
+     }
+     .header{
+         height:10%;
+       
+     }
+     .portfolio{
+         height: 6vh;
+         font-size: small;
+     }
+     .home ,.about ,.contact{
+         height: 30px;
+  
+     }
+     
+
+     .main{
+        background-color: rgb(129, 45, 125);
+        width: none;
+         height: 70%;
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+     }
+     .text{
+        width: none;
+       order: 2;
+        height: 40%;
+        display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+       background-color: rgb(129, 45, 125);
+       width: 100%;
+       font-weight: bold;
+     }
+     .span-2{
+        color:  rgb(248, 11, 130);
+        background-color: rgb(129, 45, 125);
+    }
+    .text-1, .text-2 ,.text-3{
+        background-color: rgb(129, 45, 125);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        height: 10%;
+        width: 80%;
+         
+        font-family:   Old Standard TT , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        font-weight: 900px;
+    
+    }
+    .text-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .span-2{
+        display: flex;
+        flex-direction: row;
+
+    }
+     .button{
+        width: 90px;
+        height: 40px;
+        font-size: small;
+     }
+     
+ 
+     .img{
+        background-color: rgb(129, 45, 125);
+        height: 60%;
+        
+      
+        order: 1;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+        
+      
+     
+        width: 100%;
+        position: relative;
+    
+      margin: 0;
+     }
+     .img-zayid{
+ 
+         display: flex;
+         flex-direction: row;
+        align-items: center;
+        justify-content: center;
+         border-radius: 50%;
+        width: 50vw;
+         height:34vh;
+         position: absolute;
+         background-color: rgb(155, 92, 153);
+     }
+
+
+  .footer{
+      height: 15%;
+  }
+  .button{
+      font-size: large;
+      font-weight: xx-large;
+  }
+  a{
+    font-size: large;
+}
+ }
+
+
+
+ @media screen and ( max-width: 576px ) {
+    body{
+        display: flex;
+   
+        flex-direction: column;
+        height: 95vh;
+        width: 80vw;
+    }
+   a{
+       font-size: small;
+  }
+     
+     .text-1, .text-2 ,.text-3 , .text ,.img ,.main ,.span-2{
+        background-color: rgb(223, 86, 200);
+     }
+     .img-zayid{
+        background-color: rgb(202, 157, 195);
+     }
+  .span-2{
+     color: red;
+  }
+ #b{
+    
+     width: 80px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     font-weight: x-large;
+     font-size: 1.2vh;
+ }
+}
+@media  screen and (max-width:400px) {
+    
+    a{
+        font-size: xx-small;
+   }
+}
